@@ -1,0 +1,196 @@
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+
+/*margins*/
+.mt20 {
+    margin-top: 20px;
+}
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.mg10 {
+    margin: 10px;
+}
+
+.mg15 {
+    margin: 15px;
+}
+
+
+.wd100 {
+    width: 100%;
+}
+
+.wd50 {
+    width: 50%;
+}
+
+.wd40 {
+    width: 40%;
+}
+
+/*paddings*/
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+.pr10 {
+    padding-right: 10px;
+}
+.pr15 {
+    padding-right: 15px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.pd15 {
+    padding: 15px;
+}
+
+.pd0 {
+    padding: 0px;
+}
+.
+
+
+.bg-light-gray {
+    background-color: #efefef;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/*colors*/
+.white {
+    color: white;
+}
+
+.black {
+    color: #212121;
+}
+
+.red {
+    color: #f00
+}
+
+.yellow {
+    color: #dbd81c;
+}
+
+.gray {
+    color: #a3a3a3;
+}
+
+.light_gray {
+    color: #dddddd;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+.big {
+    font-size: 1.3em;
+}
+
+
+
+.btn-red {
+    background-color: #ff5b02;
+    border-color: #ff5b02;
+    color: white;
+}
+.btn-red:hover {
+    color: white;
+}
+
+.btn-search-book {
+    background-color: #231815;
+    border-color: #231815;
+    color: white;
+}
+.btn-search-book:hover {
+    color: white;
+}
+
+
+#tab {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(186,182,186,1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(186,182,186,1);
+    box-shadow: 0px 1px 5px 0px rgba(186,182,186,1);
+}
+.selected {
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid #444968;
+}
+.rank {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: #4755b1;
+    white-space: nowrap !important;
+    line-height: 30px;
+}
+#items tr {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+#items td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#txtTitle {
+    height: 52px;
+    overflow: auto;
+}
